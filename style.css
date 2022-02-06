@@ -6,9 +6,7 @@
 html {
   font-size: 62.5%;
 }
-body {
-  font-family: etc;
-}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -24,15 +22,16 @@ body {
 }
 @font-face {
   font-family: "vibes";
-  src: url("./fonts/GreatVibes-Regular.ttf") format("truetype");
+  src: url("@{plChildRoot}./fonts/GreatVibes-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "frankm";
-  src: url("./fonts/FrankRuhlLibre-Medium.ttf") format("truetype");
+  src: url("@{plChildRoot}./fonts/FrankRuhlLibre-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "frankr";
-  src: url("./fonts/FrankRuhlLibre-Regular.ttf") format("truetype");
+  src: url("@{plChildRoot}./fonts/FrankRuhlLibre-Regular.ttf")
+    format("truetype");
 }
 
 li {
