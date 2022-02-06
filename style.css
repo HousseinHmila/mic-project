@@ -21,15 +21,15 @@ html {
 }
 @font-face {
   font-family: "vibes";
-  src: url(/fonts/GreatVibes-Regular.ttf);
+  src: url("./fonts/GreatVibes-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "frankm";
-  src: url(/fonts/FrankRuhlLibre-Medium.ttf);
+  src: url("./fonts/FrankRuhlLibre-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "frankr";
-  src: url(/fonts/FrankRuhlLibre-Regular.ttf);
+  src: url("./fonts/FrankRuhlLibre-Regular.ttf") format("truetype");
 }
 
 li {
@@ -38,7 +38,9 @@ li {
 .nav-links li a {
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: lighter;
+  font-family: "frankm", sans-serif;
 }
 .main-head nav {
   width: 100%;
