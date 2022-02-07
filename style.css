@@ -8,16 +8,15 @@ html {
 }
 @font-face {
   font-family: "vibes";
-  src: url("@{plChildRoot}./fonts/GreatVibes-Regular.ttf") format("truetype");
+  src: url("./fonts/GreatVibes-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "frankm";
-  src: url("@{plChildRoot}./fonts/FrankRuhlLibre-Medium.ttf") format("truetype");
+  src: url("./fonts/FrankRuhlLibre-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "frankr";
-  src: url("@{plChildRoot}./fonts/FrankRuhlLibre-Regular.ttf")
-    format("truetype");
+  src: url("./fonts/FrankRuhlLibre-Regular.ttf") format("truetype");
 }
 
 .nav-links {
